@@ -9,8 +9,16 @@ const Index = () => {
       <Button className="mb-8 bg-orange-500 hover:bg-orange-600 text-white">Get Started</Button>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <Card title="Feature 1">
-          <p>Description of feature 1. You can add more details here.</p>
+        <Card title="Feature 1: Smart Task Management">
+          <p>Our intelligent task management system revolutionizes your workflow:</p>
+          <ul className="list-disc list-inside mt-2 space-y-1">
+            <li>AI-powered task prioritization</li>
+            <li>Customizable project views (Kanban, List, Calendar)</li>
+            <li>Real-time collaboration with team members</li>
+            <li>Automated reminders and deadline tracking</li>
+            <li>Integration with popular productivity tools</li>
+          </ul>
+          <Button className="mt-4">Learn More</Button>
         </Card>
         <Card title="Feature 2">
           <p>Description of feature 2. You can add more details here.</p>
