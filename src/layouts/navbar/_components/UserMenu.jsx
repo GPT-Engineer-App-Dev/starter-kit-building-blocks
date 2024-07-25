@@ -12,7 +12,7 @@ import { CircleUser } from "lucide-react";
 export const UserMenu = () => (
   <DropdownMenu>
     <DropdownMenuTrigger asChild>
-      <Button variant="secondary" size="icon" className="rounded-full">
+      <Button variant="outline" size="icon" className="rounded-full bg-white text-purple-600 hover:bg-purple-100 hover:text-purple-700">
         <CircleUser className="h-5 w-5" />
         <span className="sr-only">Toggle user menu</span>
       </Button>

@@ -6,7 +6,7 @@ import { NavItem } from "./NavItem";
 export const MobileSheet = ({ navItems }) => (
   <Sheet>
     <SheetTrigger asChild>
-      <Button variant="outline" size="icon" className="shrink-0 md:hidden">
+      <Button variant="outline" size="icon" className="shrink-0 md:hidden bg-white text-purple-600 hover:bg-purple-100 hover:text-purple-700">
         <Menu className="h-5 w-5" />
         <span className="sr-only">Toggle navigation menu</span>
       </Button>
