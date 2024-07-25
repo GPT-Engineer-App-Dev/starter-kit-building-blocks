@@ -20,8 +20,16 @@ const Index = () => {
           </ul>
           <Button className="mt-4">Learn More</Button>
         </Card>
-        <Card title="Feature 2">
-          <p>Description of feature 2. You can add more details here.</p>
+        <Card title="Feature 2: Advanced Analytics Dashboard">
+          <p>Gain powerful insights with our advanced analytics dashboard:</p>
+          <ul className="list-disc list-inside mt-2 space-y-1">
+            <li>Real-time data visualization</li>
+            <li>Customizable reports and KPI tracking</li>
+            <li>Predictive analytics using machine learning</li>
+            <li>Multi-device synchronization</li>
+            <li>Export capabilities in various formats</li>
+          </ul>
+          <Button className="mt-4">Explore Analytics</Button>
         </Card>
       </div>
     </div>
